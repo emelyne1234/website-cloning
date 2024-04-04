@@ -6,7 +6,8 @@
 
 .booking {
     width: 100%;
-    height: 500px;
+    height: 700px;
+    background-repeat: no-repeat;
     background-image: url(images/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2_1.png);
 }
 
@@ -32,7 +33,7 @@ body div{
     background-image: image(background-image);
 }
 
-body div h1{
+.booking h1{
     color: rgb(254, 250, 250);
     display: flex;
 
@@ -67,6 +68,7 @@ a {
 #boxes-container{
     display: flex;
     margin: 50px;
+    position: absolute;
 }
 
 .button img{
@@ -77,7 +79,7 @@ a {
 #seek-button{
     padding: 10px;
     display: flex;
-    border-radius: 15px;
+    border-radius: 20px;
     width: 80px;
     height: 50px;
     align-items: center;
@@ -86,4 +88,34 @@ a {
 }
 #guests{
     display: inline-block;
+}
+
+#suggestions h1{
+    margin-left: 150px;
+}
+
+#suggestions-container{
+    margin-left: 150px;
+    display: flex;
+    
+}
+
+#suggestions-container img{
+    border-radius: 20px;
+    display: flex;
+    height: 150px;
+    width: 80%;
+}
+
+#accomodation img{
+    margin-left: 150px;
+    display: flex;
+    border-radius: 20px;
+    height: 150px;
+    width: 80%;
+}
+.accommodation-boxes{
+    display: flex;
+    margin-left: 150px;
+    border-radius: 20px;
 }
