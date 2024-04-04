@@ -1,294 +1,81 @@
-body{
-    margin: 0;
+* {
     padding: 0;
-    font-family: sans-serif;
-    width: 100%;
-    height: 100vh;
-}
-
-a{
-    text-decoration: none;
-    cursor: pointer;
-}
-.d-flex{
-    display: flex;
-}
-.justify-content-end{
-    justify-content: flex-end;
-}
-.justify-content-spacebtn{
-    justify-content: space-between;
-}
-.align-item-center{
-    align-items: center;
-}
-
-.d-flex-fd{
-    flex-direction: column;
-}
-
-/* HEADER CSS START */
-header{
-    width: 100%;
-    height: 60px;
-    background-color:#488e00;;
-    position: relative;
-    top: 0;
-    border-radius: 0 20px;
-}
-.h_left{
-    width: calc(20%-80px);
-    display: flex;
-    justify-content: space-between;
-    padding-left: 80px;
-}
-.h_left img{
-    width: 30px;
-}
-.h_right{
-    width: 10%;
-    padding-right: 80px;
-}
-
-.h_right:hover{
-    font-size: 16px;
-}
-
-.h_right a, .h_left a{
-    font-weight: bold;
-    color: aliceblue;
-    margin-right: 25px;
-}
-.main{
-    background-image: url("../Images/back.jpg");
-    background-size: cover;
-    height: 500px;
-    flex-direction: column;
-    flex-grow: unset;
-    color: white;
-    font-size: 25px;
-    
-}
-.main button{
-    background-color: #488e00;
-    outline: none;
-    border: none;
-    color: aliceblue;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.main p{
-    margin-top: 150px;
-    padding: 15px;
-    font-weight: bold;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-.about_us{
-    font-family: 'Times New Roman', Times, serif;
-    border-top: 2px solid darkgreen;
-    border-bottom: 2px solid darkgreen;
-    text-align: justify;
-    padding: 10px;
-    transition: background-color 1s, color 500ms;
-}
-
-.about_us:hover{
-    background-color: #488e00;
-    color: white;
-}
-
-.about_div{
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-
-}
-.we h1{
-font-size: 60px;
-color: #488e00;
-text-align: right;
-font-weight: 900;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-padding: 20px;
-}
-
-.card{
-    font-family: 'Times New Roman', Times, serif;
-    color: darkgreen;
-    width: 25%;
-    border: 2px solid darkgreen;
-    margin-right: 5px;
-    padding: 10px;
-    text-align: justify;
-    transition: background-color 1s ease-in;
-    box-sizing: border-box;
-}
-.card:nth-child(1){
-    margin-left: 5px;
-}
-
-.card:hover{
-    background-color: #488e00;
-    color: white;
-    cursor: pointer;
-}
-
-/* HEADER CSS ENDS */
-/* MAIN CSS  STARTS*/
-main{
-    width: calc(100%-5px);
-    height: auto;
-    margin: 10px;
-    padding: 5px;
-    display: grid;
-    grid-template-columns: 30% auto;
-    grid-gap: 10px;
-    border:  2px solid #488e00;
-    border-radius: 10px;
-    background-color: lightgray;
-    min-height: 0;
-    min-width: 0;
-}
-
-.submain{
-    width: calc(100%-30px);
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    border-left: 2px solid black;
-    padding: 10px;
-    }
-.user_info{
-    display: flex;
-    justify-content: start;
-    align-items: center
-}
-.user_info img{
-    object-fit: cover;
-    width: 40px;
-    height: 40px;
-    border:2px solid black;
-    border-radius: 50px;
-    margin-right: 5px;
-}
-.post_content{
-    display: flex;
-    flex-direction: column;
-}
-.post_content p{
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 300;
-    text-align: justify;
-    padding-top: 5px;
-    border-top: 1px double black;
+    box-sizing: border-box;
 }
-.post_content img{
 
-    width: 50%;
-    margin-top: 5px;
-    object-fit: cover;
-    border-radius: 10px;
+.booking {
+    width: 100%;
+    height: 500px;
+    background-image: url(images/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2_1.png);
 }
-.user_post{
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
+
+header {
+    display: inline;
 }
-.like_div{
+
+#logo{
+    margin-left: 50px;
+
+}
+#right-menu {
     display: flex;
-    align-items: center;
-    border-bottom: 1px solid black;
+    font-size: 15px;
+    cursor: pointer;
+    /* align-items: center; */
+    width: 100%;
+    margin-left: 30%;
+    padding: 30px;
 }
 
-.like_div img{
-    width: 20px;
+body div{
+    background-image: image(background-image);
+}
+
+body div h1{
+    color: rgb(254, 250, 250);
+    display: flex;
+
+    margin-left: 80px;
+    padding-top: 80px;
+    align-items: center;
+}
+
+#header-container  {
+    display: flex;
+    font-size: 15px;
+    background-color: rgb(220, 212, 212);
+    font-size: 50px;
+    align-items: space-between;
+}
+a {
+    margin: 20px;
+    padding-top: 55px;
+}
+
+.button{
+    height: 150px;
+    width: 250px;
+    border-radius: 15px;
+    margin-left: 10px;
+    display: inline;
+}
+
+#boxes-container{
+    display: flex;
     margin: 10px;
 }
-.like_div span{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.comment input{
-    outline: none;
-    border: none;
-    margin-top: 5px;
-    width: 100%;
-    height: 30px;
-    background-color: lightgray;
-}
-.comment input::placeholder{
-    font-size: 16px;
-    color: black;
+
+.button img{
+    height: 50px;
+    width:50px;
 }
 
-footer{
-    color: aliceblue;
-    width: 100%;
-    height: 200px;
-    background-color:#488e00;;
-    position: relative;
-    bottom: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 20px 0;
+#seek-button{
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
 }
-
-.contact{
-    width: 50%;
-    height: 100%;
-}
-
-.contact p{
-    text-align: justify;
-}
-
-.links{
-    width: 40%;
-    height: 100%;
-   align-items: flex-start;
-}
-
-.links ul li:hover{
- color: black;
- background-color: cadetblue;
-}
-/* FOOTER CSS STARTS */
-footer{
-    color: aliceblue;
-    width: 100%;
-    height: 200px;
-    background-color:#488e00;;
-    position: relative;
-    bottom: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 20px 0;
-}
-
-.contact{
-    width: 50%;
-    height: 100%;
-}
-
-.contact p{
-    text-align: justify;
-}
-
-.links{
-    width: 40%;
-    height: 100%;
-   align-items: flex-start;
-}
-
-.links ul li:hover{
- color: black;
- background-color: cadetblue;
- cursor: pointer;
+#guests{
+    display: inline-block;
 }
