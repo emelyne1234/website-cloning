@@ -48,33 +48,41 @@ body div h1{
     font-size: 50px;
     align-items: space-between;
 }
+
 a {
     margin: 20px;
     padding-top: 55px;
 }
 
 .button{
-    height: 150px;
-    width: 250px;
-    border-radius: 15px;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
     margin-left: 10px;
-    display: inline;
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 #boxes-container{
     display: flex;
-    margin: 10px;
+    margin: 50px;
 }
 
 .button img{
-    height: 50px;
-    width:50px;
+    height: 25px;
+    width:25px;
 }
 
 #seek-button{
+    padding: 10px;
+    display: flex;
     border-radius: 15px;
-    width: 200px;
-    height: 100px;
+    width: 80px;
+    height: 50px;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(11, 11, 79);
 }
 #guests{
     display: inline-block;
