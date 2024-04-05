@@ -94,17 +94,31 @@ a {
     margin-left: 150px;
 }
 
+#accommodation h1{
+    margin-left: 150px;
+}
 #suggestions-container{
     margin-left: 150px;
     display: flex;
-    
+
 }
 
-#suggestions-container img{
+/* #suggestions-container img{
     border-radius: 20px;
     display: flex;
     height: 150px;
     width: 80%;
+} */
+.suggestions-box img{
+    border-radius: 20px;
+    display: flex;
+    height: 150px;
+    width: 80%;
+    
+}
+#holiday-box{
+    margin: 50px 50px 0 150px;
+
 }
 
 #accomodation img{
@@ -118,4 +132,10 @@ a {
     display: flex;
     margin-left: 150px;
     border-radius: 20px;
+
+}
+
+#accomodation{
+    display: flex;
+    justify-content: space-between;
 }
